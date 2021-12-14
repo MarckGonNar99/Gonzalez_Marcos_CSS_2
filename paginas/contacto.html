@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
 </head>
 <body>
- 
+    <h1>Contacto</h1>
+
+    <form>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="correo">Correo electrónico</label><br>
+        <input type="text" id="correo" name="correo" required><br>
+        <label for="asunto">Asunto</label><br>
+        <input type="text" id="asunto" name="asunto"><br>
+        <label for="centro">Centro</label><br>
+        <select id="centro">
+            <option option="valor1">Almería</option>
+            <option option="valor1">Cádiz</option>
+            <option option="valor1">Córdoba</option>
+            <option option="valor1">Granada</option>
+            <option option="valor1">Málaga</option>
+        </select><br>
+        <label for="mensaje">Mensaje</label><br>
+        <textarea id="mensaje"></textarea><br>
+        <input type="checkbox" id="terminos" value="terminos">
+        <label for="terminos">Acepta las políticas de privacidad</label><br>
+
+        <input type="submit" name="enviar">
+        
+    </form>
 </body>
 </html>
