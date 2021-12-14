@@ -2,7 +2,7 @@ Esta página es resultado de una práctica de escuela basada en un negocio de cy
 Para este sitio me he basado en el arenaGaming. La página consiste de un Inicio, donde nos situamos en el mapa y mostramos a nivel general la instalación.
 Navegando por un menú horizontal situado en la cabecera, navegaremos por las otras páginas que son: Productos, Servicios, Noticias, BLog y Contacto,
 
-En la página Productos,promocionamos el "Merchandaising" de equipos de videojuegos, Además de vender ordenadores.
+En la página Productos, promocionamos el "Merchandaising" de equipos de videojuegos, Además de vender ordenadores.
 
 En Servicios ofrececemos una lista de nuestro alquiler de ordenadores y consolas, con bonos y descuentos en las bebidas que servimos.
 
