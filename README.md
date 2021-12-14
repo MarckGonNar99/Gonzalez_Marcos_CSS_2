@@ -14,3 +14,6 @@ feria o un congreso.
 
 En la página de Contacto los clientes podran hacer preguntas, peticiones o sugerencias. Para ello ingresarán el nombre, un email y el centro al que reclamarán,
 habrá una opción de asunto y mensaje, además de tener que aceptar la política de privacidad**.
+
+Incluimos una página de nuestros patrocinadores, ya que muchas de estas empresas financian este tipo de negocios y los eventos en el mundo de los videojuegos.
+Ademas también incluimos a los equipos españoles que participan en ESports y a equipos que tratan también de subir y ganarse la vida con ello.
