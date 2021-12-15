@@ -1,0 +1,258 @@
+ 
+/*Para los fondos del sitio web*/
+body{
+ margin: 0%;
+}
+/*Uno hace referencia a páginas fuera de la compra como son index blog y contacto*/
+.uno{
+ background-image: url(../imagenes/fondo1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:center ;
+}
+/*dos lo usaremos para páginas de servicio o de cara a vender a patrocinadores*/
+.dos{
+ background-image: url(../imagenes/fondo2.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:center ;
+}
+/*CSS de la pagina index*/
+.intro{
+ display: flex;
+ justify-content: center;
+ font-style: italic;
+ color:red;
+ text-shadow: blue 2px 2px;
+ font-size: xx-large;
+}
+.intro2{
+ display: flex;
+ justify-content: center;
+ font-style: italic;
+ color:rgba(241, 149, 28, 0.849);
+ text-shadow: rgb(168, 2, 118) 3px 3px;
+ font-size: xx-large;
+}
+#conocer{
+ background-color: black;
+ border: double 7px ;
+ border-color: orangered green;
+ display: inline-block;
+}
+#conocer h2{
+ color: purple;
+ display: flex;
+ justify-content: center;
+}
+#conocer p{
+ color:grey;
+ font-size: larger;
+ padding: 0 4%;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Ayudaaaa*/
+#galeria{
+ width: 75%;
+ margin:10%;
+ display: grid;
+ grid-template-columns: repeat(3,35%);
+}
+/*Efectos imagen galeria*/
+#galeria img:hover {
+ -webkit-transform:scale(1.5);
+ -moz-transform:scale(1.5);
+ -o-transform: scale(1.5);
+ -ms-transform: scale(1.5);
+ transform: scale(1.5);
+}
+#mapa h2{
+ display: flex;
+ justify-content: center;
+ font-style: italic;
+ color:red;
+ text-shadow: blue 2px 2px;
+ font-size: xx-large;
+}
+#mapa iframe{
+ margin-left: 10%;
+ border: 5px rgb(116, 7, 48) dotted;
+}
+/*Estilos Blog*/
+#blog_intro{
+ background-color: black;
+ border: double 7px ;
+ border-color: orangered green;
+ display: inline-block;
+}
+#blog_intro p{
+ color:grey;
+ padding: 0 4%;
+ font-size: larger;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog{
+ color: rgb(251, 251, 251);
+ display:flex;
+ flex-direction: column;
+ margin:10%
+}
+.blog h3{
+ font-size: x-large;
+ color:purple;
+ text-decoration:underline;
+}
+.blog p{
+ font-size: larger;
+ font-family: 'Courier New', Courier, monospace;
+}
+.navidad{
+ background-color: red;
+ opacity: 0.7;
+}
+.navidad h3,p{
+ padding:2%;
+}
+.terror{
+ background-color: green;
+ opacity: 0.7;
+}
+.terror h3,p{
+ padding:2%;
+}
+.clase{
+ background-color: peru;
+ opacity: 0.7;
+}
+.clase h3,p{
+ padding:2%;
+}
+.start{
+ background-color: orange;
+ opacity: 0.7;
+}
+.start h3,p{
+ padding:2%;
+}
+.blog .gif_blog{
+display: flex;
+justify-content: space-between;
+padding:1%
+}
+/*Estilos para eventos*/
+#bloques{
+ display:flex;
+ flex-direction: column;
+ margin: 15%;
+ justify-content: center;
+ background-color: turquoise;
+}
+
+.noticia{
+ border:solid red 5px;
+ padding: 5%;
+}
+.noticia h3{
+ color:rgb(255, 145, 0);
+ font-size:x-large;
+}
+.evento{
+ border: solid blue 5px;
+ padding: 6%;
+}
+.evento h3{
+ color:rgb(136, 39, 131);
+ font-size:x-large;
+}
+.evento p,.noticia p{
+ font-size: larger;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.evento .fic{
+ display: flex;
+ justify-content: center;
+} 
+.noticia a{
+ text-decoration: none;
+ background-color: tomato;
+ padding:1%;
+ border-radius: 5%;
+}
+/*estilos para la ppágina de servicios*/
+#servicio{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin:10%;
+}
+#horario{
+ background-color: purple;
+ padding: 5px;
+}
+#horario h2{
+ font-family: cursive;
+ color: rgb(81, 207, 76);
+}
+#horario li{
+ list-style:circle;
+ border-bottom: solid 1px black;
+ font-size: larger;
+ padding: 2%;
+}
+#alquiler{
+ background-color: blueviolet;
+ padding: 5%;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+#alquiler h2{
+ font-family: cursive;
+ color: rgb(7, 209, 0);
+
+}
+#alquiler td{
+ background-color: slateblue;
+ font-size: large;
+}
+#alquiler th{
+ background-color: rgb(52, 44, 102);
+}
+#noche{
+ background-color: blueviolet;
+ padding: 5%;
+ margin-top: 5%;
+ margin-right:80%;
+}
+#noche h2{
+ font-family: cursive;
+ color: rgb(245, 68, 68);
+}
+#noche p{
+ border:solid 4px red;
+}
+#bar{
+ background-color: purple;
+ padding: 5px;
+}
+/*CSS de la página formulario*/
+#formulario{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ margin: 25%;
+ margin-top: 5%;
+ padding:5%
+}
+#formulario label{
+ color:rgb(72, 151, 52);
+ background-color: rgb(133, 36, 133);
+ box-shadow: tomato 2px 2px;
+ padding: 2px;
+ font-size: x-large;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#formulario input{
+ padding: 4px;
+}
